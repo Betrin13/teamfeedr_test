@@ -1,0 +1,28 @@
+.image-container {
+  width: 100%;
+  max-width: 1900px;
+  img {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.delicious {
+  width: 100%;
+  height: auto;
+  margin-top: 350px;
+
+  .logo {
+    position: relative;
+  }
+
+  .card {
+    top: -200px;
+    position: absolute;
+  }
+  .logo {
+    top: -140px;
+  }
+}
+
