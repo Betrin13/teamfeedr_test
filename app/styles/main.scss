@@ -9,11 +9,10 @@ $icon-font-path: '../fonts/';
 @import "helpers";
 @import "variables";
 
-@import "card";
 @import "header";
 @import "footer";
 @import "general";
-@import "delicious";
+@import "sections";
 
 /* responsive */
 @import "responsive";

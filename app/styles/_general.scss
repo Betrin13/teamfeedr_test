@@ -33,47 +33,15 @@ body {
     color: $grey;
     font-size: 20px;
     letter-spacing: 2px;
+    padding: 0 0 20px;
   }
 
   p {
     color: $grey;
+    line-height: 2;
     font-size: 20px;
     font-weight: normal;
   }
-
-
-}
-
-.foodPics {
-  width: auto;
-
-  img {
-    width: 100%;
-    height: auto;
-    max-height: 800px;
-  }
-}
-
-
-.vendors {
-  width: 100%;
-  .col-lg-12 {
-    padding-left: 0;
-  }
-
-  .col-lg-6 {
-    padding-left: 25px;
-    padding-right: 25px;
-
-    &:nth-child (2n){
-      padding-right: 0;
-    }
-  }
-
-  .card {
-    top: -100px;
-  }
-
 }
 
 .image-container {
@@ -86,11 +54,6 @@ body {
   }
 }
 
-.loveFeedr {
-  img {
-    max-width: 300px;
-  }
-}
 
 .logo {
   height: 80px;
@@ -120,6 +83,7 @@ body {
   top: 18px;
   width: 75%;
   height: 2px;
+  max-width: 350px;
   position: relative;
   margin: 30px auto 50px;
   background-color: #363636;
